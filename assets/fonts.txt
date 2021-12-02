@@ -1,0 +1,19 @@
+Font- pf din text cond pro
+300, 400, 500, 700
+
+size
+15px - 400 - .nav-text
+18 px - 400
+29px - 500
+197px - 500 - .company-title
+248px - 700 - .page-title
+24px - 300 - .section-subtitle
+18px - 300 - .main-text
+102px - 700 - .section-title
+31px - 700
+
+
+
+
+
+

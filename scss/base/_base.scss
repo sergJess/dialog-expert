@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  color: $font-dark;
   font-family: "PF Din Text Cond Pro", "Arial", sans-serif;
 }
 
@@ -59,12 +60,13 @@ li {
 .container {
   max-width: 1920px;
   min-height: 600px;
-  padding: 2rem 9rem 3rem 24rem;
   margin: 0 auto;
 }
 
 .container-content{
-  max-width: 1228px;
+  max-width: 1248px;
+  padding:0 10px;
+  margin: 0 auto;
 }
 
 .page-title{

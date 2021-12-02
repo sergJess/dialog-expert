@@ -1,6 +1,27 @@
 .header{
   min-height: 1032px;
+  padding: 3rem 0 0 0;
   background-image: url('../assets/img/header/sound.png');
   background-position: center;
   background-repeat: no-repeat;
+  color: $font-light;
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem; 
+  text-transform: uppercase;
+}
+
+.header-top-text{
+  max-width: 221px;
+  text-align: center;
+}
+.header-text{
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 4px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
