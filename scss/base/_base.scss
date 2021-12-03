@@ -64,7 +64,7 @@ li {
 }
 
 .container-content{
-  max-width: 1248px;
+  max-width: 1220px;
   padding:0 10px;
   margin: 0 auto;
 }
@@ -93,13 +93,11 @@ li {
   font-weight: 500;
 }
 
-.nav-text{
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  font-weight: 400;
-}
 .main-text{
   font-size: 1.8rem;
   line-height: 2.1rem;
   font-weight: 300;
+}
+.text_colored{
+  color: $font-gold;
 }

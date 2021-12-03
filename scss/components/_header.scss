@@ -1,6 +1,6 @@
 .header{
   min-height: 1032px;
-  padding: 3rem 0 0 0;
+  padding: 4rem 0 0 0;
   background-image: url('../assets/img/header/sound.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -10,18 +10,34 @@
 .header-top{
   display: flex;
   justify-content: space-between;
-  column-gap: 1rem; 
-  text-transform: uppercase;
+  column-gap: 5rem; 
 }
-
+.header__logo{
+  margin-right: 6rem;
+}
 .header-top-text{
-  max-width: 221px;
+  max-width: 230px;
   text-align: center;
 }
 .header-text{
   font-size: 1.8rem;
   line-height: 2.1rem;
-  letter-spacing: 4px;
+  letter-spacing: 1rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+.phone-link{
+  font-size: 2.9rem;
+  line-height: 3.5rem;
+  font-weight: 300;
+  color: $font-light;
+}
+.header-contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 0.8rem;
+}
+.header-contacts__text{
+  letter-spacing: 0.4rem;
 }
