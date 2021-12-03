@@ -1,0 +1,26 @@
+.services{
+	padding: 2rem 0 0 0;
+}
+.services__title{
+	text-align: right;
+}
+.services__subtitle{
+	text-transform: uppercase;
+	text-align: right;
+	max-width: 80rem;
+}
+.services-subtitle{
+display: flex;
+justify-content: flex-end;
+}
+.services-types{
+	display: grid;
+	grid-template-columns: 47rem 52.1rem;
+	gap: 8rem 5%;
+	margin: 16rem 0 3rem 0;
+}
+.services__type{
+	max-width: 49.1rem;
+	border-left: 2px solid $font-gold;
+	padding: 0 0 0 2.4rem;
+}

@@ -1,0 +1,49 @@
+.task-container{
+	background-image: url(../assets/img/task/task-bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+.task__subtitle{
+	max-width: 58rem;
+}
+.task-form-field{
+	display: flex;
+	max-width: 45.4rem;
+	margin: 2rem 0;
+	border-bottom: 1px solid $font-dark;
+}
+.task-form__input{
+	display: block;
+	padding: 0 0.5rem 0.6rem 0.5rem;
+}
+.task-form__input::placeholder{
+	color: $font-dark;
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+}
+.task-form__input_bordered{
+	border-right: 1px solid $font-dark;
+}
+.task-form-field_last{
+	position: relative;
+}
+.task-attachment{
+	position: absolute;
+	bottom: -60%;
+	right: 0;
+	font-size: 1.2rem;
+	line-height: 1.44rem;
+	color: $font-sky;
+	letter-spacing: 0.1rem;
+}
+.task-form__submit{
+	background-color: $font-gold;
+	color: $font-light;
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+	padding: 0.4rem 4rem 0.4rem 1.3rem;
+	cursor: pointer;
+}
+.task-form-field-inner{
+	padding: 5rem 0;
+}

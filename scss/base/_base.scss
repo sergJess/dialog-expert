@@ -82,9 +82,11 @@ li {
 }
 
 .section-title{
+  max-width: 70rem;
   font-size: 10.2rem;
   line-height: 12.2rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .section-subtitle{
@@ -92,6 +94,7 @@ li {
   font-size: 2.4rem;
   line-height: 2.8rem;
   font-weight: 300;
+  letter-spacing: 0.6rem;
 }
 
 .company-title{
@@ -105,6 +108,7 @@ li {
   font-size: 1.8rem;
   line-height: 2.1rem;
   font-weight: 300;
+  letter-spacing: 0.45rem;
 }
 .text_colored{
   color: $font-gold;
