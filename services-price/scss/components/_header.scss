@@ -1,0 +1,44 @@
+.header{
+  position: relative;
+  padding: 4rem 0 0 0;
+  color: $font-light;
+  background-color: $font-dark3;
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5rem; 
+}
+.header__logo{
+  margin-right: 6rem;
+}
+.header-top-text{
+  max-width: 230px;
+  text-align: center;
+}
+.header-text{
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.phone-link{
+  font-size: 2.9rem;
+  line-height: 3.5rem;
+  font-weight: 300;
+  color: $font-light;
+}
+.header-contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 0.8rem;
+}
+.header-contacts__text{
+  letter-spacing: 0.4rem;
+}
+.header__nav{
+  padding: 8rem 0 5rem 0;
+}
