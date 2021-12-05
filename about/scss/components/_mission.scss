@@ -1,0 +1,18 @@
+.mission{
+	padding: 3rem 0;
+	background-color: $dark-bg3;
+}
+.mission-text{
+	padding: 3.5rem 0;
+}
+.mission-quote{
+	position: relative;
+	padding: 3rem 0 2rem 4rem;
+}
+.mission__quote{
+	position: absolute;
+	top: -90px;
+	left: 0;
+	font-size: 10rem;
+	color: #fff;
+}
