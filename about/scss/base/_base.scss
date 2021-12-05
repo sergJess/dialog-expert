@@ -118,12 +118,15 @@ li {
 
 .main-text{
   font-size: 1.8rem;
-  line-height: 2.1rem;
+  line-height: 2.3rem;
   font-weight: 300;
   letter-spacing: 0.45rem;
 }
 .main-text_light{
   color: $font-light;
+}
+.main-text_spaces-small{
+  letter-spacing: 0.2rem;
 }
 .main-text_bold{
   font-weight: 500;

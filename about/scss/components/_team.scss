@@ -1,0 +1,29 @@
+.team{
+	padding: 4rem 0 2rem 0;
+}
+.team-info{
+	margin: 12rem 0 4rem 0;
+}
+.team-info-item{
+	display: flex;
+	column-gap: 3%;
+	padding: 6rem 0 3rem 0;
+}
+.team-info-item_gap{
+	column-gap: 6%;
+}
+.team-info-item_end{
+	justify-content: flex-end
+}
+.team-director{
+	padding: 2rem 0 0 0 ;
+	max-width: 52.6rem;
+}
+.team-title{
+	font-size: 2.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.team__subtitle{
+	padding: 2rem 0;
+}
