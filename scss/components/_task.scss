@@ -1,19 +1,25 @@
-.task-container{
+.task{
+	margin: 9rem 0 0 0;
+	padding: 0 0 11.5rem 0;
 	background-image: url(../assets/img/task/task-bg.png);
 	background-repeat: no-repeat;
 	background-position: bottom left;
 }
+
 .task__subtitle{
-	max-width: 58rem;
+	padding: 1rem 0 0 0;
+	text-transform: uppercase;
+	max-width: 62rem;
 }
 .task-form-field{
 	display: flex;
 	max-width: 45.4rem;
-	margin: 2rem 0;
+	margin: 3rem 0;
 	border-bottom: 1px solid $font-dark;
 }
 .task-form__input{
 	display: block;
+	background-color: transparent;
 	padding: 0 0.5rem 0.6rem 0.5rem;
 }
 .task-form__input::placeholder{
@@ -41,9 +47,10 @@
 	color: $font-light;
 	font-size: 2.4rem;
 	line-height: 2.8rem;
-	padding: 0.4rem 4rem 0.4rem 1.3rem;
+	padding: 0.4rem 6rem 0.4rem 1.3rem;
+	letter-spacing: 0.2rem;
 	cursor: pointer;
 }
 .task-form-field-inner{
-	padding: 5rem 0;
+	padding: 8rem 0;
 }
