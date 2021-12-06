@@ -22,7 +22,11 @@
 	border-bottom: none;
 }
 .price__cell{
+	word-break: break-all;
 	padding: 1rem 0.4rem 2rem 1.4rem;
 	text-align: left;
 	vertical-align: top;
+}
+.price-list{
+	overflow-x: auto;
 }

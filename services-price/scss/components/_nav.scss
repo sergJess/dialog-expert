@@ -32,3 +32,66 @@ color: $font-gold;
 	background-size: cover;
 	background-image: url("../assets/img/nav/nav-wave.svg");
 }
+.nav__mobile-cross{
+	display: none;
+}
+.cross__line {
+	width: 25px;
+	height: 2px;
+	background-color: $font-gold;
+}
+
+.cross__line-left {
+	transform: rotate(-45deg);
+	position: relative;
+	left: -1px;
+	top: 2px;
+}
+
+.cross__line-right {
+	transform: rotate(45deg);
+}
+
+.nav-inner{
+	position: relative;
+}
+
+@media(max-width: 1242px){
+	.nav-list{
+		column-gap: 1%;
+	}
+}
+@media(max-width: 1000px){
+	.nav__mobile-cross{
+		display: block;
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+	}
+	.nav{
+	max-width: 310px;
+position: absolute;
+right: -200%;
+top: 60px;
+border-radius: 3%;
+background-color: rgba($font-dark4, .6);
+transition: right .5s ease-in-out;
+min-height: 320px;
+	}
+	.nav-list{
+		flex-direction: column;
+		row-gap: 2.8rem;
+		right: -200%;
+		top: 1rem;
+	}
+	.nav-text{
+		font-size: 1.6rem;
+		letter-spacing: 0.2rem;
+	}
+	.nav-inner{
+		padding: 5rem 1rem 2rem 1rem;
+	}
+	.nav-show{
+		right: 10px;
+	}
+}

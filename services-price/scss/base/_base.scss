@@ -5,7 +5,9 @@
 }
 
 :root {
+  position: relative;
   font-size: 10px;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,6 +17,7 @@ body {
   overflow-x: hidden;
   color: $font-dark;
   font-family: "PF Din Text Cond Pro", "Arial", sans-serif;
+  word-break: break-all;
 }
 
 button {
@@ -164,4 +167,34 @@ li {
 }
 .section-location_colored{
   color: $font-dark5;
+}
+
+@media(max-width: 1242px){
+  .section-title-top{
+    font-size: 10rem;
+    line-height: 11.4rem;
+  }
+
+}
+@media(max-width: 1180px){
+	.container-content, .container-content_wider{
+    max-width: 100%
+  }
+  .section-subtitle{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+  }
+  .main-text{
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.3rem;
+  }
+  .section-title{
+    max-width: 100%;
+    font-size: 4.2rem;
+    line-height: 5.4rem;
+   
+  }
 }
