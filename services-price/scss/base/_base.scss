@@ -198,3 +198,23 @@ li {
    
   }
 }
+@media(max-width: 720px){
+  .section-title-top{
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+  .section-title{
+
+    font-size: 3rem;
+    line-height: 4.2rem;
+   
+  }
+
+}
+@media(max-width: 440px){
+  .main-text, 
+  .section-subtitle{
+    letter-spacing: 0.1rem;
+  }
+
+}
