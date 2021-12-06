@@ -10,3 +10,25 @@
 	display: flex;
 	column-gap: 4.74%;
 }
+.nav__link{
+	padding-bottom: 2rem;
+	transition: color .4s ease-in-out;
+}
+.nav__link:hover{
+color: $font-gold;
+}
+.nav__link_checked{
+	position: relative;
+}
+.nav__link_checked::after{
+	content:"";
+	position: absolute;
+	bottom: 5px;
+	left:0;
+	width: 100%;
+	height: 6px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../assets/img/nav/nav-wave.svg");
+}
