@@ -1,0 +1,25 @@
+.services-price__subtitle{
+	padding: 3.5rem 0 3rem 0;
+}
+.price__table{
+	table-layout: fixed;
+  width: 100%;
+	border-collapse: collapse;
+}
+.price-head{
+	padding: 1rem 0.4rem 2rem 1rem;
+	text-align: left;
+	font-weight: 700;
+}
+.price-head-inner{
+	border-bottom: 1px solid $font-gold;
+}
+.price-body{
+	padding: 0 0 2rem 0;
+	border-bottom: 1px solid $font-dark6;
+}
+.price__cell{
+	padding: 1rem 0.4rem 2rem 1rem;
+	text-align: left;
+	vertical-align: top;
+}
