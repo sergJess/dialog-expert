@@ -18,6 +18,9 @@
 	padding: 0 0 2rem 0;
 	border-bottom: 1px solid $font-dark6;
 }
+.price-body_unbordered{
+	border-bottom: none;
+}
 .price__cell{
 	padding: 1rem 0.4rem 2rem 1rem;
 	text-align: left;
