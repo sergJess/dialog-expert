@@ -15,7 +15,7 @@
 .team-info-item_end{
 	justify-content: flex-end
 }
-.team-director{
+.team-member-info{
 	padding: 2rem 0 0 0 ;
 	max-width: 52.6rem;
 }
@@ -26,4 +26,22 @@
 }
 .team__subtitle{
 	padding: 2rem 0;
+}
+@media(max-width: 800px){
+	.team-info {
+		margin: 1rem 0 2rem 0;
+}
+}
+@media(max-width: 600px){
+	.team__member-img{
+		width: 100%;
+	}
+	.team-info-item{
+		flex-direction: column;
+		row-gap: 1rem;
+	}
+	.team-info-item_end{
+		justify-content: flex-start;
+		flex-direction: column-reverse;
+	}
 }

@@ -11,6 +11,11 @@
 	<div class="container">
 		<header class="header">
 				<div class="container-content">
+					<div class="burger burger-menu">
+						<div class="burger__line burger-menu"></div>
+						<div class="burger__middle-line burger-menu"></div>
+						<div class="burger__line burger-menu"></div>
+				</div>
 					<div class="header-top">
 									<div class="logo header__logo">
 													<a class="logo-link" href="#">
@@ -35,14 +40,22 @@
 									</div>
 					</div>
 					<nav class="nav header__nav">  
+						<div class="nav-inner">
 <ul class="nav-list">
 <li class="nav__list"><a href="#" class="nav__link nav-text">Контакты</a></li>
-<li class="nav__list"><a href="#" class="nav__link nav-text">О нас</a></li>
+<li class="nav__list"><a href="#" class="nav__link nav-text nav__link_checked">О нас</a></li>
 <li class="nav__list"><a href="#" class="nav__link nav-text">Услуги и цены</a></li>
 <li class="nav__list"><a href="#" class="nav__link nav-text">Всё о подкастах</a></li>
 <li class="nav__list"><a href="#" class="nav__link nav-text">Всё о тифлокомментировании</a></li>
 <li class="nav__list"><a href="#" class="nav__link nav-text">Наши подкасты</a></li>
 </ul>
+<div class="nav__mobile-cross cross-close">
+	<div class="cross-inner cross-close">
+					<div class="cross__line-left cross__line cross-close"></div>
+					<div class="cross__line-right cross__line cross-close"></div>
+	</div>
+</div>
+</div>
 					</nav>
 				</div>
 		</header>
@@ -88,7 +101,10 @@
 					</p>
 				</div>
 				<div class="mission-quote">
-					<div class="mission__quote">&#8222;</div>
+					
+					<div class="mission__quote">
+						<div class="quotes-inner"><span class="mission__quotes"></span><span class="mission__quotes"></span></div>
+					</div>
 					<p class="section-subtitle section-subtitle_light">
 						Мы хотим показать, что мир звуков разнообразен и необъятен на столько, что его возможности безграничны.
 					</p>
@@ -100,8 +116,8 @@
 				<h2 class="section-title">Команда</h2>
 				<div class="team-info">
 					<div class="team-info-item team-info-item_gap">
-						<div class=""><img src="assets/img/team/pavel-circ.png" alt="Pavel"></div>
-						<div class="team-director"> <h3 class="team-title">Павел</h3>
+						<div class=""><img class="team__member-img" src="assets/img/team/pavel-circ.png" alt="Pavel"></div>
+						<div class="team-member-info"> <h3 class="team-title">Павел</h3>
 						<h4 class="main-text main-text_bold main-text_spaces-small team__subtitle">Руководитель проекта, главный редактор.</h4>
 					<p class="main-text main-text_spaces-small">Предприниматель, подкастер, общественный деятель
 						<br><span class="text_colored team-line">11 лет</span> опыт работы на радио: Главный редактор, продюсер, ведущий программ;
@@ -112,20 +128,20 @@
 					</div>
 
 					<div class="team-info-item team-info-item_end">
-						<div class="team-director"> <h3 class="team-title">Иван</h3>
+						<div class="team-member-info"> <h3 class="team-title">Иван</h3>
 						<h4 class="main-text main-text_bold main-text_spaces-small team__subtitle">Главный по качеству звука</h4>
 					<p class="main-text main-text_spaces-small">Звукорежиссёр, аранжировщик, музыкант
 						<br><span class="text_colored team-line">9 лет</span> опыт работы на радио: Звукорежиссёр,продюсер;
 						<br><span class="text_colored team-line">12 лет</span> лет опыта музыкальной звукорежиссуры
 						<br>Запись, сведение, мастеринг.</p>
 					</div>
-					<div class=""><img src="assets/img/team/ivan-circ.png" alt="Ivan"></div>
+					<div class=""><img class="team__member-img" src="assets/img/team/ivan-circ.png" alt="Ivan"></div>
 					</div>
 					
 
 					<div class="team-info-item team-info-item_gap" >
-						<div class=""><img src="assets/img/team/denic-circ.png" alt="Denis"></div>
-						<div class="team-director"> <h3 class="team-title">Денис</h3>
+						<div class=""><img class="team__member-img" src="assets/img/team/denic-circ.png" alt="Denis"></div>
+						<div class="team-member-info"> <h3 class="team-title">Денис</h3>
 						<h4 class="main-text main-text_bold main-text_spaces-small team__subtitle">			Главный по мужским голосам</h4>
 					<p class="main-text main-text_spaces-small">Диктор, музыкант, блогер
 						<br><span class="text_colored team-line">15 лет</span> опыт работы в музыкальных коллективах: Ударник в группе «Калевала», автор методики обучения игры на ударных инструментах;
@@ -137,7 +153,7 @@
 					
 					
 					<div class="team-info-item team-info-item_end">
-						<div class="team-director"> <h3 class="team-title">Антонина</h3>
+						<div class="team-member-info"> <h3 class="team-title">Антонина</h3>
 						<h4 class="main-text main-text_bold main-text_spaces-small team__subtitle">	Главная по женским голосам</h4>
 					<p class="main-text main-text_spaces-small">Диктор, Блогер
 						<br><span class="text_colored team-line">3 года</span> оопыт ведение блога в: Likee, Tiktok, Instagram 700000 подписчиков;
@@ -145,7 +161,7 @@
 						<br><span class="text_colored team-line">3 года:</span>опыт начитки текстов.
 						</p>
 					</div>
-					<div class=""><img src="assets/img/team/antonina-circ.png" alt="Antonina"></div>
+					<div class=""><img class="team__member-img" src="assets/img/team/antonina-circ.png" alt="Antonina"></div>
 					</div>
 
 				</div>
@@ -216,6 +232,7 @@
 							</div>
 	</footer>
 	</div>
+	<script src="script/bundle.js"></script>
 </body>
 </html>
 
