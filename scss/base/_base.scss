@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
   color: $font-dark;
   font-family: "PF Din Text Cond Pro", "Arial", sans-serif;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 button {
@@ -152,6 +152,7 @@ li {
 .text_colored3{
   color: $font-gold2;
 }
+
 .section-location{
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -162,12 +163,27 @@ li {
 .section-location{
   display: flex;
   justify-content: flex-end;
-  padding: 0.3rem 0;
+  padding: 1rem 0 0.6rem 0;
 }
 .section-location_colored{
   color: $font-dark5;
+  margin-left: 0.5rem;
 }
-
+.text-align-right{
+  text-align: right;
+}
+.text-circle{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: $font-dark;
+ margin-right: 2rem;
+ transform: translateY(-70%);
+}
+.inner-list{
+  padding:  0 0 2rem 0;
+}
 @media(max-width: 1280px){
   .company-title{
     font-size: 14rem;

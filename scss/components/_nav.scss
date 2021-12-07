@@ -68,13 +68,16 @@ color: $font-gold;
 		top: 1rem;
 		right: 1rem;
 	}
+	.nav__link{
+		padding-bottom: 0;
+	}
 	.nav{
 	max-width: 310px;
 position: absolute;
 right: -200%;
 top: 60px;
 border-radius: 3%;
-background-color: rgba($font-dark4, .6);
+background-color: rgba($font-dark4, 1);
 transition: right .5s ease-in-out;
 min-height: 320px;
 z-index: 100;
