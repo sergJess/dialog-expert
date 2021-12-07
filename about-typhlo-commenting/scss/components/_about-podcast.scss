@@ -6,6 +6,7 @@
 	background-image: url('../assets/img/podcasts/tv.svg');
 	width: 99px;
 	height: 99px;
+	margin-right: 1rem;
 }
 .about-podcasts__title{
 	padding: 2rem 0 0 0;
@@ -68,4 +69,15 @@ background-image: url('../assets/img/podcasts/btn.png');
 }
 .podcast-typhlo{
 	padding: 0 0 7rem 0;
+}
+@media(max-width: 1280px){
+	.typhlo__img{
+		width: 100%;
+	}
+}
+@media(max-width: 580px){
+	.podcast__tv{
+		display: block;
+		margin: 1rem 0;
+	}
 }
