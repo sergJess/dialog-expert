@@ -19,6 +19,8 @@
 }
 .task-form__input{
 	display: block;
+	width:100%;
+ max-width: 22.5rem;
 	background-color: transparent;
 	padding: 0 0.5rem 0.6rem 0.5rem;
 }
@@ -28,6 +30,7 @@
 	line-height: 2.1rem;
 }
 .task-form__input_bordered{
+
 	border-right: 1px solid $font-dark;
 }
 .task-form-field_last{
