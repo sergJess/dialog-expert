@@ -1,12 +1,12 @@
 @import '../../scss/abstracts/variables';
 @import 'base/fonts';
 @import '../../scss/base/base';
-@import 'components/_header.scss';
+@import '../../scss/pages-common/_header.scss';
 @import 'components/logo';
-@import 'components/nav';
+@import '../../scss/pages-common/nav';
 @import 'components/about-us';
 @import 'components/mission';
 @import 'components/team';
 @import 'components/work';
-@import 'components/footer';
+@import '../../scss/pages-common/footer';
 @import 'components/burger';
