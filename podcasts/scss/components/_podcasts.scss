@@ -98,3 +98,24 @@ top: 8px;
 .podcast__link{
 	color: $font-dark;
 }
+@media(max-width: 800px){
+	.podcast-type-item{
+flex-direction: column;
+row-gap: 1rem;
+		column-gap: 1%;
+	}
+	.podcast__img{
+		width: 100%;
+	}
+	.podcast-types{
+		row-gap: 4rem;
+	}
+
+}
+@media(max-width: 520px){
+	.subscription{
+		flex-direction: column;
+		column-gap: 1%;
+
+	}
+}

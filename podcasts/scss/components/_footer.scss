@@ -39,3 +39,17 @@
 .footer__text_colored{
 color: $font-light;
 }
+
+@media(max-width:720px){
+	.footer{
+		padding: 5rem 0 3.2rem 0;
+	}
+	.footer-social{
+		flex-direction: column;
+		row-gap: 2.8rem;
+		align-items: center;
+	}
+	.footer__text{
+		max-width: 98%;
+	}
+}
