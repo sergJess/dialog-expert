@@ -1,6 +1,9 @@
 .mission{
 	padding: 3rem 0;
 	background-color: $dark-bg3;
+	background-image: url(../assets/img/mission/wave-bg.png);
+	background-position: top;
+	background-repeat: no-repeat;
 }
 .mission-text{
 	padding: 3.5rem 0;
@@ -25,5 +28,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../assets/img/mission/quote.png);
+	background-image: url('../assets/img/mission/quote.png');
+}
+.wave-bg{
+	position: relative;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-image: url('../assets/img/mission/wave-bg.png');
 }
