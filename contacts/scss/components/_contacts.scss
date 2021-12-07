@@ -11,3 +11,12 @@
 .contacts-email__middle{
 	padding: 3rem 0;
 }
+@media(max-width: 720px){
+	.contacts-info{
+		flex-direction: column;
+		row-gap: 1rem;
+	}
+	.contact__subtitle {
+		padding: 3rem 0 2rem 0;
+}
+}
