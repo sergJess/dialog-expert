@@ -1,0 +1,41 @@
+.podcast__tv{
+	display: inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../assets/img/podcasts/tv.svg');
+	width: 99px;
+	height: 99px;
+}
+.about-podcasts__title{
+	padding: 2rem 0 0 0;
+	max-width: 100%;
+}
+.all-about-podcast-text{
+	margin: 5.6rem 0 3rem 0;
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+.quotes-inner{
+	display: flex;
+	column-gap: 1.5%;
+}
+.podcast__subtitle{
+	padding: 2rem 0 0 0;
+}
+.podcast__quote{
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../assets/img/podcasts/qoute.png');
+	width: 12px;
+	height: 28px;
+}
+.podcast__quote_padding{
+	padding: 3rem 0 0 0;
+}
+.podcast__quote-text{
+	padding: 2rem 0 0 4rem;
+}
