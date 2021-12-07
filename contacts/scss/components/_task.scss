@@ -54,6 +54,21 @@
 .task-form-field-inner{
 	padding: 8rem 0;
 }
+.attach-inner{
+	position: relative;
+}
+.input__attach{
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	z-index: 200;
+}
+.label-attach-file{
+	position: absolute;
+	top: 0;
+	left: 5px;
+	transform: translateY(20%);
+}
 @media(max-width: 1000px){
 	.task{
 		margin: 6rem 0 0 0;
@@ -67,6 +82,9 @@
 	max-width:100%;
 	flex-direction: column;
 	row-gap: 5rem;
+}
+.task-form-field{
+	margin-top: 5rem;
 }
 .task-form__input{
 	border-right: none;

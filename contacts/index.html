@@ -119,7 +119,10 @@
 					</div>
 					<div class="task-form-field task-form-field_last">
 							<input type="text" value="" class="task-form__input task-form__input_bordered main-text" placeholder="Промо код" required>
-							<input type="attachment" value="" class="task-form__input main-text" placeholder="Прикрепить файл" required name="attachment">
+							<div class="attach-inner">
+								<input type="file" class="task-form__input main-text input__attach" placeholder="Прикрепить файл" name="attachment">
+								<label class="main-text label-attach-file" for="attachment">Прикрепить файл</label>
+						</div>
 							<label class="task-attachment" for="attachment">(Doc, docx, xls, xlsx, txt, pdf, jpg, png)</label>
 							</div>
 					</div>
