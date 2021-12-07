@@ -49,3 +49,33 @@
   bottom: -7%;
   right: 18.5%;
 }
+.company__word{
+  display: block;
+}
+@media(max-width: 1180px){
+  .phone-link{
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+}
+@media(max-width: 1000px){
+  .header__nav{
+    padding: 0;
+  }
+  .header{
+    min-height: 250px;
+    padding: 5.4rem 0 2rem 0;
+  }
+}
+@media(max-width: 720px){
+  .header-top{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+  }
+  .header__logo{
+    margin-right: 0;
+  }
+ 
+}

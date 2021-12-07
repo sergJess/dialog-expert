@@ -5,7 +5,9 @@
 }
 
 :root {
+  position: relative;
   font-size: 10px;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,6 +17,7 @@ body {
   overflow-x: hidden;
   color: $font-dark;
   font-family: "PF Din Text Cond Pro", "Arial", sans-serif;
+  word-break: break-all;
 }
 
 button {
@@ -87,16 +90,37 @@ li {
   line-height: 12.2rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: $font-dark4;
 }
-
+.section-title_light{
+  color: $font-light;
+}
+.section-title-top{
+  font-size: 17.9rem;
+  line-height: 21.4rem;
+  font-weight: 700;
+  color: $font-dark4;
+  text-transform: uppercase;
+}
 .section-subtitle{
   color: $font-dark-section;
   font-size: 2.4rem;
   line-height: 2.8rem;
   font-weight: 300;
   letter-spacing: 0.6rem;
+  text-transform: uppercase;
 }
-
+.section-subtitle_bold{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-subtitle_short{
+  letter-spacing: 0.1rem;
+}
+.section-subtitle_light{
+  text-transform: uppercase;
+  color: $font-light;
+}
 .company-title{
   font-size: 19.7rem;
   line-height: 19.7rem;
@@ -106,13 +130,137 @@ li {
 
 .main-text{
   font-size: 1.8rem;
-  line-height: 2.1rem;
+  line-height: 2.3rem;
   font-weight: 300;
   letter-spacing: 0.45rem;
+}
+.main-text_light{
+  color: $font-light;
+}
+.main-text_spaces-small{
+  letter-spacing: 0.2rem;
+}
+.main-text_bold{
+  font-weight: 500;
 }
 .text_colored{
   color: $font-gold;
 }
 .text_colored2{
   color: $font-sky;
+}
+.text_colored3{
+  color: $font-gold2;
+}
+.section-location{
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: $font-dark;
+}
+.section-location{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.3rem 0;
+}
+.section-location_colored{
+  color: $font-dark5;
+}
+
+@media(max-width: 1280px){
+  .company-title{
+    font-size: 14rem;
+    line-height: 16.7rem;
+  }
+  .page-title{
+    font-size: 12rem;
+    line-height: 20.8rem;
+  }
+}
+
+@media(max-width: 1242px){
+  .section-title-top{
+    font-size: 10rem;
+    line-height: 11.4rem;
+  }
+
+}
+@media(max-width: 1180px){
+	.container-content, .container-content_wider{
+    max-width: 100%
+  }
+  .section-subtitle{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+  }
+  .main-text{
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.3rem;
+  }
+  .section-title{
+    max-width: 100%;
+    font-size: 4.2rem;
+    line-height: 5.4rem;
+   
+  }
+}
+@media(max-width: 910px){
+  .company-title{
+    padding: 3rem 0;
+    font-size: 8rem;
+    line-height: 10rem;
+  }
+  .header__arrow-down{
+    display: none;
+  }
+}
+
+@media(max-width: 720px){
+  .section-title-top{
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+  .section-title{
+
+    font-size: 3rem;
+    line-height: 4.2rem;
+   
+  }
+
+}
+@media(max-width: 550px){
+  .company-title{
+    padding: 2rem 0;
+    font-size: 5rem;
+    line-height: 7rem;
+  }
+  .page-title{
+    font-size: 6rem;
+    line-height: 7rem;
+    padding: 2rem 0;
+  }
+}
+
+
+@media(max-width: 440px){
+  .main-text, 
+  .section-subtitle{
+    letter-spacing: 0.1rem;
+  }
+
+}
+@media(max-width: 340px){
+  .section-title{
+    font-size: 2.7rem;
+    line-height: 3.9rem;
+  }
+  .company-title{
+    padding: 2rem 0;
+    font-size: 4.4rem;
+    line-height: 7rem;
+  }
 }

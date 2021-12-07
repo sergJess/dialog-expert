@@ -54,3 +54,25 @@
 .task-form-field-inner{
 	padding: 8rem 0;
 }
+@media(max-width: 1000px){
+	.task{
+		margin: 6rem 0 0 0;
+		padding: 0 0 6.5rem 0;
+		background-image: none;
+
+	}
+}
+@media(max-width: 540px){
+.task-form-field{
+	max-width:100%;
+	flex-direction: column;
+	row-gap: 5rem;
+}
+.task-form__input{
+	border-right: none;
+	border-bottom: 1px solid $font-dark;
+}
+.task-attachment {
+	bottom: -19%;
+}
+}
