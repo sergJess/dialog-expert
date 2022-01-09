@@ -11,6 +11,11 @@
 .contacts-email__middle{
 	padding: 3rem 0;
 }
+.contacts-social{
+	display: flex;
+	align-self: center;
+	column-gap: 2rem;
+}
 @media(max-width: 720px){
 	.contacts-info{
 		flex-direction: column;
