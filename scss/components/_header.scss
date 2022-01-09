@@ -1,6 +1,6 @@
 .header{
   position: relative;
-  padding: 4rem 0 0 0;
+  padding: 4rem 0 0rem 0;
   background-image: url('../assets/img/header/sound.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,16 +46,18 @@
 }
 .header__arrow-down{
   position: absolute;
-  bottom: -7%;
-  right: 18.5%;
+  bottom: 0;
+  transform: translateY(50%);
+  left: 0;
 }
 .company__word{
   display: block;
 }
-.company-title-inner{
+.header-arrow__inner{
   position: relative;
-  top: 3rem;
+  padding: 0 0 12rem 0;
 }
+
 @media(max-width: 1180px){
   .phone-link{
     font-size: 2.2rem;
