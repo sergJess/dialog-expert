@@ -1,5 +1,5 @@
 .services{
-	padding: 10rem 0 0 0;
+	padding: 9rem 0 0 0;
 }
 
 .services__subtitle{
@@ -12,13 +12,13 @@ display: flex;
 justify-content: flex-end;
 }
 .services-subtitle-inner{
-	padding: 4rem 0;
+	padding: 7rem 0 3rem 0;
 }
 .services-types{
 	display: grid;
 	grid-template-columns: 47rem 52.1rem;
 	gap: 8rem 5%;
-	margin: 5rem 0 7rem 0;
+	margin: 5rem 0 8rem 0;
 }
 .services__type{
 	max-width: 49.1rem;
@@ -30,8 +30,8 @@ justify-content: flex-end;
 	align-items: center;
 font-size: 2.4rem;
 line-height: 2.9rem;
-letter-spacing: 0.2rem;
-	padding: 0.2rem 3rem 0.2rem 0.8rem;
+letter-spacing: 0.45rem;
+	padding: 0.2rem 6rem 0.3rem 1.3rem;
 	color: $font-light;
 	background-color: $font-gold;
 }
