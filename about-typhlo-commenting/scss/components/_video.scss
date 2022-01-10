@@ -1,0 +1,10 @@
+.video{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #000;
+}
+@media(max-width: 500px){
+	.video{
+		height: 330px;
+	}
+}
