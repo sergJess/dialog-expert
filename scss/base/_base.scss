@@ -65,7 +65,11 @@ li {
   min-height: 600px;
   margin: 0 auto;
 }
-
+.container-content_small{
+  max-width: 1216px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 .container-content{
   max-width: 1220px;
   padding: 0 10px;
@@ -119,7 +123,7 @@ li {
   font-size: 2.4rem;
   line-height: 2.8rem;
   font-weight: 300;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.59rem;
   text-transform: uppercase;
 }
 .section-subtitle_bold{
@@ -144,13 +148,13 @@ li {
   font-size: 1.8rem;
   line-height: 2.3rem;
   font-weight: 300;
-  letter-spacing: 0.335rem;
+  letter-spacing: 0.19rem;
 }
 .main-text_light{
   color: $font-light;
 }
 .main-text_spaces-small{
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.19rem;
 }
 .main-text_bold{
   font-weight: 500;
@@ -169,7 +173,7 @@ li {
   font-size: 1.5rem;
   line-height: 1.8rem;
   font-weight: 300;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.3rem;
   color: $font-dark;
 }
 .section-location{
