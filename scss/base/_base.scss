@@ -154,6 +154,7 @@ li {
   line-height: 2.3rem;
   font-weight: 300;
   letter-spacing: 0.19rem;
+  color: $font-dark;
 }
 .main-text_light{
   color: $font-light;
@@ -173,7 +174,9 @@ li {
 .text_colored3{
   color: $font-gold2;
 }
-
+.text-uppercase{
+  text-transform: uppercase;
+}
 .section-location{
   font-size: 1.5rem;
   line-height: 1.8rem;
