@@ -1,13 +1,16 @@
 .team{
-	padding: 4rem 0 2rem 0;
+	padding: 6rem 0 2rem 0;
 }
 .team-info{
-	margin: 12rem 0 4rem 0;
+	margin: 2.2rem 0 4rem 0;
 }
 .team-info-item{
 	display: flex;
 	column-gap: 3%;
 	padding: 6rem 0 3rem 0;
+}
+.team-info-left{
+	padding: 6rem 0 3rem 3.4rem;
 }
 .team-info-item_gap{
 	column-gap: 6%;
@@ -16,7 +19,7 @@
 	justify-content: flex-end
 }
 .team-member-info{
-	padding: 2rem 0 0 0 ;
+	padding: 1rem 0 0 0 ;
 	max-width: 52.6rem;
 }
 .team-title{

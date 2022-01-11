@@ -1,5 +1,5 @@
 .mission{
-	padding: 8rem 0;
+	padding: 8rem 0 7rem 0;
 	background-color: $dark-bg3;
 	background-image: url(../assets/img/mission/wave-bg.png);
 	background-position: top;
@@ -10,7 +10,7 @@
 }
 .mission-quote{
 	position: relative;
-	padding: 3.6rem 0 2rem 3.6rem;
+	padding: 3.8rem 0 2rem 4.5rem;
 }
 .mission__quote{
 	position: absolute;
@@ -19,7 +19,10 @@
 }
 .quotes-inner{
 	display: flex;
-	column-gap: 6px;
+	column-gap: 22px;
+}
+.mission-text_mission{
+	display: block;
 }
 .mission__quotes{
 	display: block;
