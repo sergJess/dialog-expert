@@ -1,6 +1,6 @@
 .task{
 	margin: 8rem 0 0 0;
-	padding: 0 0 11.5rem 0;
+	padding: 0 0 17.5rem 0;
 	background-image: url(../assets/img/task/task-bg-2.png);
 	background-repeat: no-repeat;
 	background-position: top 68px left;
@@ -44,24 +44,26 @@
 }
 .task-attachment{
 	position: absolute;
-	bottom: -60%;
-	right: 0;
+	bottom: -46%;
+	right: 5%;
 	font-size: 1.2rem;
 	line-height: 1.44rem;
 	color: $font-gold;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.06rem;
 }
 .task-form__submit{
+	font-family: "PF Din Text Cond Pro";
 	background-color: $font-gold;
 	color: $font-light;
 	font-size: 2.4rem;
 	line-height: 2.8rem;
-	padding: 0.4rem 6rem 0.4rem 1.3rem;
-	letter-spacing: 0.2rem;
+	padding: 0.4rem 6.4rem 0.4rem 1.3rem;
+	letter-spacing: 0.5rem;
+	font-weight: 300;
 	cursor: pointer;
 }
 .task-form-field-inner{
-	padding: 10rem 0 4rem 0;
+	padding: 10rem 0 8rem 0;
 	display: flex;
 	flex-direction: column;
 	row-gap: 5rem;
