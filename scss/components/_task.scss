@@ -21,7 +21,11 @@
 	width:100%;
 	font-family: "PF Din Text Cond Pro", "Arial", sans-serif;
  max-width: 21.5rem;
+	font-size: 1.8rem;
+	line-height: 2.6rem;
+	font-weight: 300;
 	background-color: transparent;
+	letter-spacing: 0.4rem;
 	padding: 0 0.5rem 1rem 0;
 	border-bottom: 1px solid $font-dark;
 }
@@ -34,6 +38,7 @@
 	font-size: 1.8rem;
 	line-height: 2.6rem;
 	font-weight: 300;
+	letter-spacing: 0.4rem;
 	font-family: "PF Din Text Cond Pro", "Arial", sans-serif;
 }
 .task-form__input_bordered{
@@ -80,7 +85,11 @@
 }
 .label-attach-file{
 	position: absolute;
-	top: 0;
+	font-size: 1.8rem;
+	line-height: 2.6rem;
+	font-weight: 300;
+	letter-spacing: 0.4rem;
+	top: -4px;
 	left: 5px;
 	transform: translateY(20%);
 }

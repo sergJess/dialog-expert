@@ -1,3 +1,6 @@
+.contacts{
+	padding: 1rem 0 0 1rem;
+}
 .contacts-info{
 	display: flex;
 	column-gap: 8%;
@@ -5,8 +8,26 @@
 .contact__subtitle{
 	padding: 7rem 0 3rem 0;
 }
-.contact-email__subtitle{
+.contact-subtitle{
+	font-size: 2.4rem;
+	line-height: 2.8rem;
 	text-transform: uppercase;
+	font-weight: 700;
+	color: $font-dark4;
+}
+.contacts-text{
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+	font-weight: 300;
+	color: $font-dark4;
+}
+.contacts-text_spacing{
+	letter-spacing: 0.5rem;
+}
+.contacts-link{
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+	font-weight: 300;
 }
 .contacts-email__middle{
 	padding: 3rem 0;
@@ -15,6 +36,7 @@
 	display: flex;
 	align-self: center;
 	column-gap: 2rem;
+	padding: 5rem 0 0 0;
 }
 @media(max-width: 720px){
 	.contacts-info{
