@@ -1,16 +1,26 @@
+.services-price{
+	padding: 1rem 0 15rem 0;
+}
 .services-price__subtitle{
-	padding: 4.5rem 0 3.3rem 0;
+	padding: 5.6rem 0 4.7rem 0;
 }
 .price__table{
 	table-layout: fixed;
-  width: 100%;
+ width: 100%;
 	border-collapse: collapse;
+	border-spacing: 10px;
 }
 .price-head{
 	vertical-align: top;
 	padding: 1rem 0.4rem 2rem 1.4rem;
 	text-align: left;
 	font-weight: 700;
+}
+.price-head:nth-child(1){
+	padding: 1rem 0.4rem 2rem 2.4rem;
+}
+.price-head:nth-child(2){
+	padding: 1rem 0.4rem 2rem 0.4rem;
 }
 .price-head-inner{
 	border-bottom: 1px solid $font-gold;
@@ -23,16 +33,46 @@
 	border-bottom: none;
 }
 .price__cell{
+	max-width: 360px;
 	word-break: break-all;
-	padding: 1rem 0.4rem 2rem 1.4rem;
+	padding: 2rem 3rem 2rem 1.4rem;
 	text-align: left;
 	vertical-align: top;
+}
+.price__cell:nth-child(1){
+	padding: 2rem 3rem 2rem 2.4rem;
+}
+.price__cell:nth-child(2){
+	padding: 2rem 3rem 2rem 0.4rem;
 }
 .price-list{
 	overflow-x: auto;
 }
-@media(max-width: 500px){
+@media(max-width: 1200px){
+	.services-price{
+		padding: 1rem 0 3rem 0;
+	}
+}
+@media(max-width: 520px){
 	.price__cell, .price-head{
 		padding: 1rem 0.4rem 2rem 0.3rem;
+	}
+	.price__cell{
+		padding: 2rem 1rem 2rem 0.4rem;
+	}
+	.price__cell:nth-child(1){
+		padding: 2rem 1rem 2rem 0.4rem;
+	}
+	.price__cell:nth-child(2){
+		padding: 2rem 1rem 2rem 0.4rem;
+	}
+	.price-head{
+		padding: 1rem 0.4rem 2rem 0.4rem;
+	}
+	.price-head:nth-child(1){
+		padding: 1rem 0.4rem 2rem 0.4rem;
+	}
+	.price-head:nth-child(2){
+		padding: 1rem 0.4rem 2rem 0.4rem;
 	}
 }
