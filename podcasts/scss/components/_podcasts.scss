@@ -1,9 +1,9 @@
 .podcasts{
-	padding: 0 0 8rem 0;
+	padding: 3rem 0 14rem 0.8rem;
 }
 .podcast-title{
 	max-width: 100%;
-	padding:2rem 0 8rem 0;
+	padding: 2rem 0 6.2rem 0;
 }
 .podcast__title{
 display: inline-block;
@@ -15,16 +15,16 @@ top: 8px;
 	text-transform: uppercase;
 }
 .podcast-text{
-	padding: 5rem 0;
+	padding: 9.4rem 0 8rem 0;
 }
 .podcast-types{
 	display: flex;
 	flex-direction: column;
-	row-gap: 17rem;
+	row-gap: 9rem;
 }
 .podcast-type-item{
 	display: flex;
-	column-gap: 5%;
+	column-gap: 7%;
 }
 .podcast-type__title{
 	padding-bottom: 1.5rem;
@@ -41,14 +41,14 @@ top: 8px;
 	font-size: 2.4rem;
 	line-height: 2.8rem;
 	font-weight: 300;
-	letter-spacing: 0.6rem;
+	letter-spacing: 0.54rem;
 	color: $font-light;
 	background-color: $font-gold;
-	padding: 0.4rem 3rem 0.4rem 1rem;
+	padding: 0.4rem 3rem 0.4rem 1.4rem;
 }
 .subscription{
 	display: flex;
-	column-gap: 5%;
+	column-gap: 16%;
 }
 .podcast__list{
 	list-style: none;
