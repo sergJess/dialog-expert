@@ -1,6 +1,14 @@
 .work{
-	padding: 1rem 0 8rem 0;
+	padding: 0 0 16rem 5rem;
 }
 .work-subtitle{
-	padding: 3rem 0;
+	padding: 8rem 0 6.4rem 0;
+}
+@media(max-width: 750px){
+	.work{
+		padding: 1rem 0 4rem 0;
+	}
+	.work-subtitle{
+		padding: 4rem 0 3rem 0;
+	}
 }
