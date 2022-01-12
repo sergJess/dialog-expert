@@ -116,6 +116,13 @@
 	border-bottom: 1px solid $font-dark;
 }
 .task-attachment {
+	left: 0;
 	bottom: -19%;
+}
+.task-form-field-inner {
+	row-gap: 0rem;
+}
+.task-form__input_right{
+	padding: 0 0.5rem 1rem 0rem;
 }
 }
