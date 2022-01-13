@@ -8,6 +8,8 @@
 }
 .nav-list{
 	display: flex;
+	flex-wrap: wrap;
+	row-gap: 3rem;
 	column-gap: 4.74%;
 }
 .nav__link{

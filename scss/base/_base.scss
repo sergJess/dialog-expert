@@ -159,9 +159,6 @@ li {
 .main-text_light{
   color: $font-light;
 }
-.main-text_spaces-small{
-  letter-spacing: 0.19rem;
-}
 .main-text_bold{
   font-weight: 500;
 }
@@ -202,7 +199,8 @@ li {
   height: 4px;
   border-radius: 50%;
   background-color: $font-dark;
- margin-right: 2rem;
+ margin-right: 1rem;
+ margin-left: 0.2rem;
  transform: translateY(-70%);
 }
 .inner-list{

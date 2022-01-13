@@ -14,13 +14,13 @@
 }
 .task-form-field{
 	display: flex;
-	max-width: 44.4rem;
+	max-width: 43.4rem;
 }
 .task-form__input{
 	display: block;
 	width:100%;
 	font-family: "PF Din Text Cond Pro", "Arial", sans-serif;
- max-width: 21.5rem;
+ max-width: 20.6rem;
 	font-size: 1.8rem;
 	line-height: 2.6rem;
 	font-weight: 300;
@@ -29,7 +29,6 @@
 	padding: 0 0.5rem 1rem 0;
 	border-bottom: 1px solid $font-dark;
 }
-
 .task-form__input_right{
 	padding: 0 0.5rem 1rem 2rem;
 }
@@ -94,7 +93,6 @@
 	transform: translateY(20%);
 }
 @media(max-width: 1000px){
-	
 	.task{
 		margin: 6rem 0 0 0;
 		padding: 0 0 6.5rem 0;
@@ -112,6 +110,7 @@
 	margin-top: 5rem;
 }
 .task-form__input{
+	max-width: 100%;
 	border-right: none;
 	border-bottom: 1px solid $font-dark;
 }
